@@ -1,0 +1,13 @@
+<div class="form-vertical">
+    <form>
+        <input type="text" (change)="myChange1($event)" placeholder="First Name" />
+        <input type="text" (change)="myChange2($event)" placeholder="Second Name" />
+        <input type="text" [value]="first" (change)="myChange3($event)" placeholder="Display Name" />
+    </form>
+
+    <ul class="output">
+        <li> First name:{{first}}</li>
+        <li> Second name:{{second}}</li>
+        <li> Display name:{{display}}</li>
+    </ul>
+</div>

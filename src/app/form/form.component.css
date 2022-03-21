@@ -1,0 +1,17 @@
+.form-vertical {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.form-vertical form input {
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.output {
+  background-color: gray;
+  text-align: left;
+  padding-left: 20px;
+}
