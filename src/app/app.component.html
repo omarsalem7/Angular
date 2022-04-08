@@ -1,9 +1,4 @@
-<style>
-  .content {
-    text-align: center;
-  }
-</style>
-
-<div class="content" role="main">
-  <h1>hello world</h1>
-</div>
+<h1>Assignment 2</h1>
+<input type="text" placeholder="Enter what you want" #task />
+<button (click)="addTask(task.value)">Add New Task</button>
+<app-output [list]="taskList"></app-output>
